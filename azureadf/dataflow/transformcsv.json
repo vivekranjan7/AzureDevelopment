@@ -74,7 +74,10 @@
 				"     preCommands: [],",
 				"     postCommands: [],",
 				"     skipDuplicateMapInputs: true,",
-				"     skipDuplicateMapOutputs: true) ~> sink1"
+				"     skipDuplicateMapOutputs: true,",
+				"     partitionBy('dynamicRange', 2,",
+				"          ERROR_FUNCTION('')",
+				"     )) ~> sink1"
 			]
 		}
 	}
