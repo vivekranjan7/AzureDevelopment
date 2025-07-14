@@ -1,0 +1,23 @@
+{
+	"name": "metadata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservicedl",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "csvfiles",
+				"fileSystem": "azpoccurated"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
