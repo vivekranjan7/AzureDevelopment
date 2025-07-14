@@ -1,0 +1,9 @@
+{
+	"name": "azpocdf007",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c8373e7c-2f15-4b87-ac72-1b47dc1b4613",
+		"tenantId": "1a2e163b-9bc1-4288-aa7b-bb7eee51e6be"
+	}
+}
