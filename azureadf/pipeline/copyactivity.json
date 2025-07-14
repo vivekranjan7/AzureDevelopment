@@ -55,7 +55,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "curated_csv",
+						"referenceName": "flat",
 						"type": "DatasetReference"
 					}
 				]
